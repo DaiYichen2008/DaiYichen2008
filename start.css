@@ -1,0 +1,33 @@
+*{
+    user-select: none;
+}
+body{
+    background: url(./Waves.png),no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.start_box{
+    border: solid aliceblue;
+    display: flex;
+
+    margin: 0,auto;
+    background-color: rgba(0, 0, 0, 0.184);
+
+    width: 1900px;
+    height: 2000px;
+
+    
+    border-radius: 50px;
+    backdrop-filter: blur(20px);
+    box-shadow: 1px 1px 8px black;
+}
+.blog{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(85, 102, 118, 0.699);
+}
+.start_title{
+    color: aliceblue;
+
+}
