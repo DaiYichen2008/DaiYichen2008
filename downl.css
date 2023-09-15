@@ -1,10 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background: url(./Lonely%20Night%20.png),no-repeat;
+	background: url(./Lonely\ Night\ .png),no-repeat;
     background-size: cover;
-    
-	color: aqua;
+    line-height: 1.5;
+	color: rgb(255, 255, 255);
 }
 .bload{
     background: rgba(255, 255, 255, 0.1);
@@ -12,13 +12,66 @@ body{
     border-radius: 8px;  
 	font-size: 32px;
 	
+	
 }
 .downbox{
 	text-decoration: none;
 	color: inherit;
 	background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(100px);
     border-radius: 4px;
 	font-size: 10px;
+	padding:2px;
+	color: rgb(0, 217, 255);
 
 }
+.临时{
+	text-decoration: none;
+	color: inherit;
+	background: rgba(255, 0, 0, 0.2);
+    backdrop-filter: blur(100px);
+    border-radius: 4px;
+	font-size: 10px;
+	color: rgb(255, 132, 0);
+	padding:2px;
+	
+
+}
+.进入{
+	text-decoration: none;
+	color: inherit;
+	background: rgba(255, 196, 0, 0.34);
+    backdrop-filter: blur(8px);
+    border-radius: 4px;
+	font-size: 30px;
+	color: rgb(255, 230, 0);
+	border-style:solid;
+    border-width:2px;
+	border-color: rgb(229, 255, 0);
+	line-height: 2.5;
+	padding:10px;
+	
+}
+.主页介绍标题{
+	text-decoration: none;
+	color: inherit;
+	background: rgba(255, 255, 255, 0.116);
+    backdrop-filter: blur(8px);
+    border-radius: 4px;
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+}
+.标题{
+	text-decoration: none;
+	color: inherit;
+	background: rgba(255, 255, 255, 0.052);
+    backdrop-filter: blur(8px);
+    border-radius: 5px;
+	font-size: 100px;
+	color: rgb(255, 255, 255);
+	border-style:solid;
+    border-width:1px;
+	border-color: rgba(91, 134, 172, 0.459);
+}
+
+
